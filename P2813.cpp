@@ -15,4 +15,5 @@ int main()
     }
     sort(a,a+n);
     sort(b,b+m);
+    
 }
