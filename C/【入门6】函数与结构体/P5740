@@ -1,0 +1,48 @@
+#include<bits/stdc++.h>
+using namespace std;
+class Student{
+    public:
+    string name;
+    int score_chinese;
+    int score_math;
+    int score_english;
+    void setName(string a)
+    {
+        name = a;
+    };
+    void setScore_chinese(int b)
+    {
+        score_chinese = b;
+    };
+    void setScore_math(int c)
+    {
+        score_math = c;
+    };
+    void setScore_english(int d)
+    {
+        score_english = d;
+    }
+};
+int main(){
+    int n;
+    cin>>n;
+    Student student[n];
+    int sum[n]={0};
+    int max_sum=0;
+    int temp=0;
+    for(int i=0;i<n;i++)
+    {
+        string a;
+        int b,c,d;
+        cin>>a>>b>>c>>d;
+        student[i].setName(a);
+        student[i].setScore_chinese(b);
+        student[i].setScore_math(c);
+        student[i].setScore_english(d);
+        sum[i]=b+c+d;
+        if(sum[i]>max_sum){max_sum=sum[i];temp = i;}
+    }
+    cout<<student[temp].name<<" "<<student[temp].score_chinese<<" "<<student[temp].score_math<<" "<<student[temp].score_english;
+    return 0;
+
+}
