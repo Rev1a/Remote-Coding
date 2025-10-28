@@ -1,32 +1,38 @@
 #include<bits/stdc++.h>
 using namespace std;
-int main(){
-    int a[1500]={0},b[1500]={0},c[10000]={0},la,lb,lc=0;
-    string m,n;
-    cin>>m>>n;
-    for(int i=m.size();i>0;i--)
+int main()
+{
+    string a,b;
+    cin>>a>>b;
+    int al=a.size();
+    int bl=b.size();
+    int as[2005],bs[2005];
+    int cs[4005]={0};
+    for(int i=0;i<al;i++)
     {
-        a[m.size()-i]=m[i-1]-'0';
+        as[al-i]=a[i]-'0';
     }
-    for(int i=n.size();i>0;i--)
+    for(int i=0;i<bl;i++)
     {
-        b[n.size()-i]=n[i-1]-'0';
+        bs[bl-i]=b[i]-'0';
     }
-    la = m.size(), lb = n.size();
-    int len = max(la, lb);
-    for (int j = 0; j < len; j++) 
+    for(int i=1;i<=al;i++)
     {
-    c[j] += a[j] + b[j];
-    c[j+1] += c[j] / 10;
-    c[j] %= 10;
+        for(int j=1;j<=bl;j++)
+        {
+            cs[i+j-1]+=as[i]*bs[j];
+            cs[i+j]+=cs[i+j-1]/10;
+            cs[i+j-1]%=10;
+        }
     }
-
-    lc=max(m.size(),n.size());
-    if(c[lc])
+    int lc=a.size()+b.size();
+    while(lc>1 && cs[lc]==0)
     {
-        lc+=1;
+        lc--;
     }
-    for(int i=lc-1;i>=0;i--){
-        cout<<c[i];
+    for(int i=lc;i>=1;i--)
+    {
+        cout<<cs[i];
     }
+    return 0;
 }

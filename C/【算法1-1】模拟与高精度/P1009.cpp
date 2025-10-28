@@ -3,9 +3,27 @@ using namespace std;
 int main()
 {
     int n;
-    int arr[100][50];
-    for(int i=1;i<=n;i++)
+    string a,b;
+    int i=0;
+    while(i++ && i<=n)
     {
-
+        int la=a.size();
+        int lb=b.size();
+        int as[20]={0},bs[20]={0};
+        for(int i=0;i<la;i++)
+        {
+            as[la-i]=a[i]-'0';
+        }
+        for(int i=0;i<lb;i++)
+        {
+            bs[lb-i]=b[i]-'0';
+        }
+        for(int i=1;i<=la;i++)
+        {
+            for(int j=1;j<=lb;j++)
+            {
+                
+            }
+        }
     }
 }
