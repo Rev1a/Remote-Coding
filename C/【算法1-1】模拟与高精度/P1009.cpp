@@ -5,7 +5,7 @@ int main()
     int n;
     string a,b;
     int i=0;
-    int as[20],bs[20],c[20];
+    int as[20],bs[20]={};
     while(i++ && i<=n)
     {
         int la=a.size();
@@ -15,10 +15,7 @@ int main()
         {
             as[la-i]=a[i]-'0';
         }
-        for(int i=0;i<lb;i++)
-        {
-            bs[lb-i]=b[i]-'0';
-        }
+        
         for(int i=1;i<=la;i++)
         {
             for(int j=1;j<=lb;j++)
