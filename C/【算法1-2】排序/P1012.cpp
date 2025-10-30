@@ -2,15 +2,8 @@
 using namespace std;
 string a[21];
 bool tmp(string a,string b)
-{
-    for(int i=0;i<=min(a.size(),b.size());i++)
-    {
-        if(a[i]==b[i])continue;
-        else
-        {
-            return a[i] > b[i];
-        }
-    }
+{   
+    return a + b > b + a;
 }
 int main()
 {
@@ -24,7 +17,7 @@ int main()
         cin>>w;
         a[i]=to_string(w);
     }
-    sort(a,a+n,tmp);
+    sort(a+1,a+n+1,tmp);
     for(int i=1;i<=n;i++)cout<<a[i];
     return 0;
 }
