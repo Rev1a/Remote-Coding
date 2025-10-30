@@ -1,40 +1,30 @@
 #include<bits/stdc++.h>
 using namespace std;
-using ll=long long ;
-struct fir
+string a[21];
+bool tmp(string a,string b)
 {
-    int id;
-    int fi;
-    int len=0;
-};
-bool tmp(fir a, fir b)
-{
-    a.fi > b.fi;
+    for(int i=0;i<=min(a.size(),b.size());i++)
+    {
+        if(a[i]==b[i])continue;
+        else
+        {
+            return a[i] > b[i];
+        }
+    }
 }
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     int n;
-    int a[n];
-    fir b[n];
-    for(int i=0;i<n;i++)
+    cin>>n;
+    for(int i=1;i<=n;i++)
     {
-        cin>>a[i];
+        int w;
+        cin>>w;
+        a[i]=to_string(w);
     }
-    for(int i=0;i<n;i++)
-    {
-        int temp=a[i];
-        b[i].id=i;
-        while(temp/10)
-        {
-            temp/=10;
-            b[i].len++;
-        }
-        b[i].fi=temp;
-    }
-    sort(b,b+n,tmp);
-    for(int i=0;i<n;i++)
-    {
-        cout<<a[b[i].id];
-    }
+    sort(a,a+n,tmp);
+    for(int i=1;i<=n;i++)cout<<a[i];
     return 0;
 }
