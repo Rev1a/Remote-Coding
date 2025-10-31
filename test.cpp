@@ -3,6 +3,6 @@ using namespace std;
 int main()
 {   int n;
     cin>>n;
-    int a=e+10;
+    int a=1e+10;
     cout<<a;
 }
