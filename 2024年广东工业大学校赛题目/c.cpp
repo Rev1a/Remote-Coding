@@ -15,16 +15,17 @@ int main()
     for(int i=1;i<=n;i++)
     {
         cin>>a[i].l>>a[i].r;
-        a[i].l-i-1;
-        a[i].r-i-1;
+        a[i].l;
+        a[i].r;
     }
+    int stay=0;
     while(pos<n+1)
     {   
-        int temp_stop=0;
-        if(a[pos].r<=a[pos+1].l && pos+1 <=n)
+        int times=0;
+        if(a[pos+1].l <= a[pos].r+1 && a[pos+1].l < a[pos+1].r)
         {
-            temp_stop=a[pos+1].l-a[pos].r;
-            times+=1+temp_stop;
+            int dis = a[pos+1].l - a[pos].l -1;
+            times+=dis;
             pos++;
         }
         else
@@ -33,6 +34,6 @@ int main()
             return 0;
         }
     }
-    cout<<times;
+    cout<<times+n;
     return 0;
 }
