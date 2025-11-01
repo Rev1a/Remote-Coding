@@ -1,39 +1,44 @@
 #include<bits/stdc++.h>
 using namespace std;
+using ll =long long;
 struct blank
 {
-    int l,r;
+    ll l,r;
 }
-a[10005];
-int main()
+a[100005];
+void end()
 {
+    cout<<"-1";
+}
+int main()
+{   
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
     int n;
     cin>>n;
-    int pos=0;
-    a[0].r=0;
-    int times=0;
+    ll pos=0;
+    a[0].l = -LLONG_MAX / 2;
+    a[0].r = LLONG_MAX / 2;
+    ll times=0;
     for(int i=1;i<=n;i++)
     {
         cin>>a[i].l>>a[i].r;
-        a[i].l;
-        a[i].r;
+        a[i].l-=i;
+        a[i].r-=i;
     }
-    int stay=0;
-    while(pos<n+1)
-    {   
-        int times=0;
-        if(a[pos+1].l <= a[pos].r+1 && a[pos+1].l < a[pos+1].r)
+    while(pos<n)
+    {    times++;  
+        if (times < a[pos+1].l)
         {
-            int dis = a[pos+1].l - a[pos].l -1;
-            times+=dis;
-            pos++;
+            times = a[pos+1].l;
         }
-        else
-        {
-            cout<<"-1";
+        if (times > a[pos+1].r) {
+            cout << -1;
             return 0;
         }
+        pos++;
+
     }
-    cout<<times+n;
+    cout<<times+n+1;
     return 0;
 }
