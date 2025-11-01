@@ -14,10 +14,6 @@ int main() {
         cin >> n >> X;
         vector<ll> a(n);
         for (int i = 0; i < n; ++i) cin >> a[i];
-
-        // ✅ 核心排序规则：
-        // 1. 先按 a[i] % X 降序
-        // 2. 若相同，则按 a[i] 升序
         sort(a.begin(), a.end(), [&](ll x, ll y) {
             if (x % X != y % X) return x % X > y % X;
             return x < y;
