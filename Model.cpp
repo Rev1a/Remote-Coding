@@ -53,3 +53,28 @@ signed main()
 
     return 0;
 }
+
+
+
+
+
+
+/*
+long long qpow(long long a, long long b, long long mod) {
+    long long c = 1;
+    a %= mod;
+    while(b > 0) {
+        if(b & 1) c = c * a % mod;
+        a = a * a % mod;               
+        b >>= 1;                       
+    }
+    return c;
+}
+
+神秘快速幂   & 1 判断是否最低位是1
+        >> 是向左移一位 
+
+
+
+
+*/
