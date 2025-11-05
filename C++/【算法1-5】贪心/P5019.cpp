@@ -4,15 +4,15 @@ int main()
 {
     int n;
     cin>>n;
-    int a[n];
-    bool b[n];
-    for(int i=0;i<n;i++)
+    vector<int> a(n);
+    for(int i=0;i<n;i++)cin>>a[i];
+    int cns = a[0];
+    for(int i=1;i<n;i++)
     {
-        b[n]=true;
+        int temp = a[i] - a[i-1];
+        if(temp > 0)cns+=temp;
+        else continue;
     }
-    for(int i=0;i<n;i++)
-    {
-        cin>>a[i];
-    }
-    
+    cout<<cns<<"\n";
+    return 0;
 }
