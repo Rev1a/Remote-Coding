@@ -1,15 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
-int xx[4]={};
-int yy[4]={};
+int a[35][35];
+bool vis[35][35];
+int xx[4]={0,0,1,-1};
+int yy[4]={1,-1,0,0};
 int main()
 {   
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int n;
     cin>>n;
-    int a[35][35];
-    bool vis[35][35];
+    
     for(int i=1;i<=n;i++)
     {
         for(int j=1;j<=n;j++)
@@ -54,13 +55,14 @@ int main()
         {
             if(a[i][j] == 0 && vis[i][j] == 0)
             {
-                cout<<"2";
+                cout<<"2"<<" ";
             }
             else
             {
-                cout<<a[i][j;]
+                cout<<a[i][j]<<" ";
             }
         }
+        cout<<"\n";
     }
     return 0;
 }
