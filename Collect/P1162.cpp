@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-int xx[4]={};
-int yy[4]={};
+int xx[4]={1,-1,0,0};
+int yy[4]={0,0,};
 int main()
 {   
     ios::sync_with_stdio(false);
@@ -21,9 +21,6 @@ int main()
     {
         a[0][i]=0;
         a[n+1][i]=0;
-    }
-    for(int i=0;i<n+2;i++)
-    {
         a[i][0]=0;
         a[i][n+1]=0;
     }
@@ -58,9 +55,10 @@ int main()
             }
             else
             {
-                cout<<a[i][j;]
+                cout<<a[i][j];
             }
         }
+        cout<<"\n";
     }
     return 0;
 }
