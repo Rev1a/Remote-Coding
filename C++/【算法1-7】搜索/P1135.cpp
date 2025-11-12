@@ -1,31 +1,51 @@
 #include<bits/stdc++.h>
 using namespace std;
+int a[205];
+int b[205];
 bool vis[205];
-vector<int> flr(205);
-int cnt = 0;
-void bfs(int u)
-{
-    if(u==b)
-    {
-
-        cout<<cnt;
-    }
-    for(int i=0;i<n;i++)
-    {
-        
-    }
-}
+int N,A,B;
+queue<int> pos;
 int main()
 {
+    memset(b, -1, sizeof(b)); 
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int n,a,b;
-    cin>>n>>a>>b;
-  
-    for(int i=0;i<n;i++)
+    
+
+    cin>>N>>A>>B;
+    for(int i=1;i<=N;i++)
     {
-        cin>>flr[i];
+         cin>>a[i];
     }
-    bfs(a);
+    
+
+    pos.push(A);
+    b[A]=0;
+    vis[A] = true;
+
+    while(!pos.empty())
+    {   
+        int cp = pos.front();
+        for(int i=-1;i<=1;i+=2)
+        {
+            int np = i * a[cp] + cp;
+            if(np >=1 && np<=N && !vis[np])
+            {   
+                b[np] = b[cp] + 1;
+                pos.push(np);
+                vis[np] = true;
+            }
+        }
+        pos.pop();
+    }
+
+    if(b[B] != -1   )
+    {
+        cout<<b[B];
+    }
+    else
+    {
+        cout<<-1;
+    }
     return 0;
 }
