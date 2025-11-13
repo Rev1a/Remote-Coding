@@ -1,54 +1,34 @@
 #include<bits/stdc++.h>
 using namespace std;
-const int dep = 305;
-char a [dep][dep];
-int dis[dep][dep];
-bool vis[dep][dep];
-int n,m,ex,ey,bx,by;
-queue<pair<int,int>> q;
-int dx[4]={0,0,-1,1};
-int dy[4]={1,-1,0,0};
-pair<int,int> portal[26][2];  
-int portal_count[26] = {0};    
-void bfs()
-{   
-    dis[bx][by] = 0;
-    while(!q.empty()) 
-    {   
-        auto [x,y] = q.front(); q.pop();
-        if(a[x][y]=='=')
-            {
-                cout << dis[x][y] << "\n";
-                return;
-            }
-        if(a[x][y]>='A' && a[x][y]<='Z')
-        {
-            int id = a[x][y]-'A';
-            for (auto &p : portal[id])
-            {
-                int nx = p.first, ny = p.second;
-                if(nx==x && ny==y) continue;
-                if(dis[nx][ny] > dis[x][y])
-                {
-                    dis[nx][ny] = dis[x][y];   // 0 代价
-                    dq.push_front({nx,ny});
-                }
-            }
-        }
+const int width = 305; 
+bool vis[width][width];
+int a[width][width];
+int n,m;
+int bx,by;
+int dx[4]={1,0,-1,0};
+int dy[4]={0,1,0,-1};
+struct point{
+    int x;
+    int y;
+    int t;
+};
+queue<point> que;
 
 
-        for(int i=0;i<4;i++)
+void goto_another(int &nx,int &ny,int k)
+{
+    for(int i=1;i<=n;i++)
+    {
+        for(int j=1;j<=m;j++)
         {
-            int nx = x+dx[i], ny = y+dy[i];
-            if(nx>=1 && nx<=n && ny>=1 && ny<=m && a[nx][ny]!='#' && !vis[nx][ny])
+            if(a[i][j]==a[nx][ny]&&(i!=nx||j!=ny))
             {
-                vis[nx][ny] = true;
-                dis[nx][ny] = dis[x][y]+1;
-                q.push({nx, ny});
+                nx=i;
+                ny=j;
+                return ;
             }
         }
     }
-
 }
 int main()
 {
@@ -58,30 +38,41 @@ int main()
     string s;
     for(int i=1;i<=n;i++)
     {
-        cin >> s;
+        cin>>s;
         for(int j=1;j<=m;j++)
         {
             a[i][j] = s[j-1];
             if(a[i][j]=='@')
-                {
-                    bx = i;
-                    by = j;
-                }
-            else if(a[i][j]=='=')
-                {
-                    ex = i;
-                    ey = j;
-                }
-            else if(a[i][j]>='A' && a[i][j]<='Z')
-                {
-                    int id = a[i][j]-'A';
-                    portal[id][portal_count[id]++] = {i,j};
-                }
+            {
+                bx = i;
+                by = j;
+            }
         }
     }
-
-    vis[bx][by]=true;
-    q.push({bx,by});
-    bfs();
+    que.push((point){bx,by,0});
+    while(!que.empty())
+    {
+        point f=que.front();
+        que.pop();
+        if(a[f.x][f.y]=='=')
+        {
+            cout<<f.t;
+            return 0;
+        }
+        if(a[f.x][f.y]>='A'&&a[f.x][f.y]<='Z')
+        {
+            goto_another(f.x,f.y,f.t);
+        }
+        for(int i=0;i<4;i++)
+        {
+            int nx=f.x+dx[i];
+            int ny=f.y+dy[i];
+            if(nx>=1&&nx<=n&&ny>=1&&ny<=m&&a[nx][ny]!='#'&&!vis[nx][ny])
+            {
+                vis[nx][ny]=true;
+                que.push((point){nx,ny,f.t+1});
+            }
+        }
+    }
     return 0;
 }
