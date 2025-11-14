@@ -6,5 +6,5 @@ void func()
 }
 int main()
 {
-    
+    long long  a=0x7ffffffffff;
 }

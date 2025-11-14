@@ -7,10 +7,6 @@ void dfs(int x)
     {
             
     }
-
-
-
-
 }
 int main()
 {
