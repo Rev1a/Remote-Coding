@@ -2,15 +2,31 @@
 using namespace std;
 int main()
 {
-    string line;
-    int arr[3]={0};
-    while(getline(cin,line))
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    string a,b;
+    int tow=0;
+    while(cin>>b)
+    {   
+        tow++;
+        a += b;
+    }
+    cout<<tow<<" ";
+    char eg = '0';
+    int cnt = 0;
+    for(int i=0;i<a.size();i++)
     {
-        for(char ch : line) {
-            if(ch == '0') {arr[0]++;}
-            else if(ch == '1') {arr[1]++;}
-            
+        if(a[i]==eg)
+        {
+            cnt++;
+        }
+        else
+        {
+            cout<<cnt<<" ";
+            eg = a[i];
+            cnt = 1;
         }
     }
+    cout<<cnt;
     return 0;
 }
