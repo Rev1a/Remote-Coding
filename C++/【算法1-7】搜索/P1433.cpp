@@ -1,56 +1,53 @@
 #include<bits/stdc++.h>
 using namespace std;
-long double dis(int x1,int y1,int x2,int y2)
-{
-    long double temp = sqrt((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2));
-    return temp;
-}
-struct pos
-{
-    int x,y;
-}p[20];
-bool vis[20];
-double d[20];
-double pos = INT_MAX;
-int n; 
-int cur_x,cur_y;
-void dfs(int dep)
-{
-    if(dep > n)
-    {   
-        double sum = 0;
-        for(int i=0;i<n;i++)
-        {
-            sum +=d[i];
-        }
-        pos = min(pos,sum);
-    }
-    for(int i=0;i<n;i++)
-    {
-        cur_x = p[i].x;
-        cur_y = p[i].y;
-        for(int j=0;j<n;j++)
-        {   
-            vis[j]=true;
-            d[j] = dis(cur_x,cur_y,p[j].x,p[j].y);
-            dfs(dep+1);
-            vis[j]=false;
-        }
-    }
 
+int n;
+double ans = 1e18;
+int v[20]; 
+double a[20],b[20],dp[65000][17];
+long double distance(int x,int y)
+{
+    return sqrt( (a[x]-a[y])*(a[x]-a[y]) + (b[x]-b[y])*(b[x]-b[y]) );
 }
+void dfs(int p,int cur,double s,int bi)
+{   
+    if(s > ans)return;
+    if(p == n)
+    {
+        ans = min (ans,s);
+        return;
+    }
+    for(int i=1;i<=n;i++)
+    {   
+        if(!v[i])
+        {   
+            int t = bi + (1<<(i-1));
+            if(dp[t][i]!=0 && dp[t][i] <= s + distance(cur,i))
+            {
+                continue;
+            }
+            v[i] = 1;
+            dp[t][i] = s +distance(cur,i);
+            dfs( p+1 ,i,dp[t][i],t);
+            v[i] = 0;
+        }
+    }
+  
+} 
 int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     
     cin>>n;
-    
-    for(int i=0;i<n;i++)
+    for(int i=1;i<=n;i++)
     {
-        cin>>p[i].x>>p[i].y;
+        cin>>a[i]>>b[i];
     }
-    dfs(1);
-    cout<<pos<<"\n";
+    for(int i=0; i<(1<<n); i++)
+        for(int j=0; j<=n; j++)
+            dp[i][j] = 1e18;
+    dfs(0,0,0,0);
+    cout<<fixed<<setprecision(2)<<ans<<"\n";
     return 0;
 }
