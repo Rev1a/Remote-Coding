@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/GitHub.iml" filepath="$PROJECT_DIR$/.idea/GitHub.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Remote-Coding.iml" filepath="$PROJECT_DIR$/.idea/Remote-Coding.iml" />
+>>>>>>> 8f0684b548e887b0a5cc1c7b6a63c764a1942f8f
     </modules>
   </component>
 </project>
