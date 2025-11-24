@@ -6,10 +6,9 @@ int main()
     cin.tie(nullptr);
     int n;
     cin>>n;
-    unsigned long long sum = 1;
-    for(int i=1;i<=n;i++)
+    for(int i=2;i<=n;i+=2)
     {
-        sum = sum * i;
+        
     }
-    cout<<sum;
+    return 0;
 }
