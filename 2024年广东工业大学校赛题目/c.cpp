@@ -1,44 +1,45 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-using ll =long long;
-struct blank
+#define ll long long
+struct k
 {
-    ll l,r;
-}
-a[100005];
-void end()
+    ll l, r;
+};
+signed main()
 {
-    cout<<"-1";
-}
-int main()
-{   
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int n;
-    cin>>n;
-    ll pos=0;
-    a[0].l = -LLONG_MAX / 2;
-    a[0].r = LLONG_MAX / 2;
-    ll times=0;
-    for(int i=1;i<=n;i++)
+    cin >> n;
+    vector<k> a(n);
+    for (int i = 0; i < n; i++)
     {
-        cin>>a[i].l>>a[i].r;
+        cin >> a[i].l >> a[i].r;
         a[i].l-=i;
         a[i].r-=i;
     }
-    while(pos<n)
-    {    times++;  
-        if (times < a[pos+1].l)
+    ll pos = 0;
+    ll t = 0;
+    ll limit = LLONG_MAX;
+    if(a[0].r==0)
+    {
+        cout<<"-1\n";
+        return 0;
+    }
+    for(int i=0;i<n;i++)
+    {   
+        if(pos > a[i].r || a[i].l > limit)
         {
-            times = a[pos+1].l;
-        }
-        if (times > a[pos+1].r) {
-            cout << -1;
+            cout<<"-1\n";
             return 0;
         }
-        pos++;
-
+        if(pos < a[i].l)
+        {
+            t+=a[i].l - pos;
+            pos = a[i].l;
+        }
+        limit = a[i].r;
     }
-    cout<<times+n+1;
+    cout<<t+n;
     return 0;
 }
