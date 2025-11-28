@@ -1,147 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e0965e0-e4f9-4e4a-a9e5-e638d5a304bb" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/2024年广东工业大学校赛题目/c.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2024年广东工业大学校赛题目/c.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/11.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/11.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/C Primer Plus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/C Primer Plus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Chapter01/1.c" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Chapter01/1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Chapter01/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Chapter01/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Chapter01/GitHub.code-workspace" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Chapter01/GitHub.code-workspace" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/动态分配求平均.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/动态分配求平均.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针交换两个数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针交换两个数.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针修改数组元素.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针修改数组元素.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针基础操作.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针基础操作.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针求数组最大值.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针求数组最大值.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针统计字符串中大写字母.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针统计字符串中大写字母.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针遍历数组.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/指针遍历数组.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/结构体指针操作.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/指针/结构体指针操作.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/类和对象/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/类和对象/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/ChatGPT_Exercise/类和对象/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/ChatGPT_Exercise/类和对象/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/DX_test/24/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/DX_test/24/5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/DX_test/25/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/DX_test/25/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/DX_test/25/1_Plus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/DX_test/25/1_Plus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/DX_test/25/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/DX_test/25/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/DX_test/25/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/DX_test/25/3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/DX_test/25/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/DX_test/25/5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/DX_test/25/tempCodeRunnerFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/DX_test/25/tempCodeRunnerFile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Misaka_Mikoto.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Misaka_Mikoto.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Note.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Note.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Real_dx26/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Real_dx26/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Real_dx26/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Real_dx26/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Real_dx26/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Real_dx26/3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Real_dx26/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Real_dx26/4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Real_dx26/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Real_dx26/5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/Real_dx26/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Real_dx26/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/adventure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/adventure.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/arr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/arr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/dx26/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/dx26/1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/dx26/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/dx26/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/dx26/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/dx26/3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/dx26/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/dx26/4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/dx26/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/dx26/5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/en.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/en.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/isPrime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/isPrime.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/latency_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/latency_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/test_of_size.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/test_of_size.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/try.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/try.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P1009-无高精度Version.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P1009-无高精度Version.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P1089.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P1089.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P1217.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P1217.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P1307.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P1307.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P2669.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P2669.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P5719.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P5719.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P5721.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P5721.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/P5725.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/P5725.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门3】循环结构/tempCodeRunnerFile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门3】循环结构/tempCodeRunnerFile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/ P2141.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/ P2141.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P1047.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P1047.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P1161.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P1161.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P1319.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P1319.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P1320.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P1320.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P1428.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P1428.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P1554.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P1554.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P1789.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P1789.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P2550.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P2550.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P2615.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P2615.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P2911.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P2911.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P5728.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P5728.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P5729.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P5729.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P5730.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P5730.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P5731.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P5731.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门4】数组/P5732.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门4】数组/P5732.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P1125.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P1125.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P1308.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P1308.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P1533.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P1533.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P1765.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P1765.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P1957.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P1957.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P3741.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P3741.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P5015.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P5015.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门5】字符串/P5733.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门5】字符串/P5733.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5461.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5461.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5735.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5735.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5736.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5736.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5738.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5738.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5739.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5739.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5740" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5740" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5742.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5742.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5744.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【入门6】函数与结构体/P5744.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1009.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1009.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1042.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1042.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1065.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1065.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1303.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1303.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1563.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1563.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1601.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1601.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1786.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P1786.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P2670.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-1】模拟与高精度/P2670.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1012.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1012.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1059.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1059.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1068.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1068.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1093.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1093.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1104.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1104.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1116.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1116.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1152.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1152.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1177.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1177.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1271.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1271.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1781.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1781.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P1923.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P1923.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P2676.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P2676.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-2】排序/P5143.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-2】排序/P5143.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-3】暴力枚举/P2089.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-3】暴力枚举/P2089.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-4】递推与递归/P1002.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-4】递推与递归/P1002.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-5】贪心/P1007.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-5】贪心/P1007.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-5】贪心/P1106.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-5】贪心/P1106.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-5】贪心/P5019.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-5】贪心/P5019.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-6】二分查找与二分答案/P2249.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-6】二分查找与二分答案/P2249.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/DFS小模板（？） P1101.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/DFS小模板（？） P1101.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1036.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1036.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1135.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1135.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1219.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1219.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1433.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1433.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1443.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1443.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1605.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1605.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1825.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P1825.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P2036.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P2036.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P2392.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P2392.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/【算法1-7】搜索/P2404.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/【算法1-7】搜索/P2404.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C++/广智.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/C++/广智.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collect/P1010.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collect/P1010.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collect/P1177.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collect/P1177.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collect/P1255" beforeDir="false" afterPath="$PROJECT_DIR$/Collect/P1255" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collect/P1255.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collect/P1255.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collect/P2871.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collect/P2871.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collect/a.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collect/a.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collect/hello.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collect/hello.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Markdown/learn.md" beforeDir="false" afterPath="$PROJECT_DIR$/Markdown/learn.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenJudge/2811.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/OpenJudge/2811.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/南昌大学ACM题单/P1020.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/南昌大学ACM题单/P1020.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/南昌大学ACM题单/P1540.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/南昌大学ACM题单/P1540.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/南昌大学ACM题单/P1816.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/南昌大学ACM题单/P1816.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/南昌大学ACM题单/P2695.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/南昌大学ACM题单/P2695.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="0e0965e0-e4f9-4e4a-a9e5-e638d5a304bb" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,31 +13,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="35rZRebZOZupfZMMmE5ThGB7Q1G" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ 文件.P1009.cpp.executor": "Run",
-    "C/C++ 文件.P1049.cpp.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ 文件.P1009.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ 文件.P1049.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C/C++ 文件.P1009.cpp">
     <configuration name="P1009.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GitHub" TARGET_NAME="P1009.cpp" CONFIG_NAME="P1009.cpp">
       <option name="sourceFile" value="C++\【入门3】循环结构\P1009.cpp" />
@@ -206,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763870146742</updated>
       <workItem from="1763870148316" duration="125000" />
+      <workItem from="1764034085844" duration="29000" />
     </task>
     <servers />
   </component>
